@@ -19,7 +19,7 @@
     "@react-navigation/bottom-tabs": "^7.3.10",
     "@react-navigation/elements": "^2.3.8",
     "@react-navigation/native": "^7.1.6",
-    "@react-navigation/native-stack": "^7.3.13",
+    "@react-navigation/native-stack": "^7.3.10",
     "@stripe/stripe-react-native": "^0.45.0",
     "axios": "^1.9.0",
     "eas": "^0.1.0",
@@ -69,5 +69,16 @@
     "eslint-config-expo": "~9.2.0",
     "typescript": "~5.8.3"
   },
+  "expo": {
+  "doctor": {
+    "reactNativeDirectoryCheck": {
+      "exclude": [
+        "react-native-maps-directions",
+        "react-native-swiper"
+      ],
+      "listUnknownPackages": false
+    }
+  }
+},
   "private": true
 }
