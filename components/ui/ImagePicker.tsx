@@ -9,7 +9,7 @@ import {
   Platform,
 } from "react-native";
 import * as ExpoImagePicker from "expo-image-picker";
-import { colors } from "@/constants/colors";
+import { colors } from "../../constants/colors";
 import { Camera, Upload } from "lucide-react-native";
 
 interface ImagePickerProps {

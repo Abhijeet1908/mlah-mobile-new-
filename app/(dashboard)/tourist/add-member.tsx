@@ -18,7 +18,7 @@ import { Card } from "@/components/ui/Card";
 import { ImagePicker } from "@/components/ui/ImagePicker";
 import { LoadingOverlay } from "@/components/ui/LoadingOverlay";
 import { useTouristStore } from "@/store/tourist-store";
-import { colors } from "@/constants/colors";
+import { colors } from "../../../constants/colors";
 
 export default function AddMemberScreen() {
   const router = useRouter();

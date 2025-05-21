@@ -19,7 +19,7 @@ import { ImagePicker } from "@/components/ui/ImagePicker";
 import { LoadingOverlay } from "@/components/ui/LoadingOverlay";
 import { useTouristStore } from "@/store/tourist-store";
 import { useAuthStore } from "@/store/auth-store";
-import { colors } from "@/constants/colors";
+import { colors } from "../../../constants/colors";
 import * as FileSystem from "expo-file-system";
 import axios from "axios";
 import AsyncStorage from "@react-native-async-storage/async-storage";

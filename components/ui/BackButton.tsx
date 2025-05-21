@@ -2,7 +2,7 @@ import React from "react";
 import { TouchableOpacity, Text, StyleSheet, ViewStyle } from "react-native";
 import { useRouter } from "expo-router";
 import { ChevronLeft } from "lucide-react-native";
-import { colors } from "@/constants/colors";
+import { colors } from "../../constants/colors";
 
 interface BackButtonProps {
   style?: ViewStyle;

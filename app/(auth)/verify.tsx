@@ -16,7 +16,7 @@ import { OtpInput } from "@/components/ui/OtpInput";
 import { Button } from "@/components/ui/Button";
 import { LoadingOverlay } from "@/components/ui/LoadingOverlay";
 import { useAuthStore } from "@/store/auth-store";
-import { colors } from "@/constants/colors";
+import { colors } from "../../constants/colors";
 import { ChevronLeft } from "lucide-react-native";
 
 export default function VerifyScreen() {

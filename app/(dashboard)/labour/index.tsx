@@ -15,7 +15,7 @@ import { Button } from "@/components/ui/Button";
 import { FeatureCard } from "@/components/ui/FeatureCard";
 import { useLabourStore } from "@/store/labour-store";
 import { useAuthStore } from "@/store/auth-store";
-import { colors } from "@/constants/colors";
+import { colors } from "../../../constants/colors";
 import {
   User,
   FileText,
@@ -138,8 +138,8 @@ export default function LabourDashboardScreen() {
                 profile.cardStatus === "active"
                   ? styles.activeBadge
                   : profile.cardStatus === "expired"
-                    ? styles.expiredBadge
-                    : styles.pendingBadge,
+                  ? styles.expiredBadge
+                  : styles.pendingBadge,
               ]}
             >
               <Text style={styles.statusText}>

@@ -5,7 +5,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { useAuthStore } from "@/store/auth-store";
-import { colors } from "@/constants/colors";
+import { colors } from "../../constants/colors";
 import { Users, Briefcase } from "lucide-react-native";
 
 export default function ChooseRegistrationScreen() {

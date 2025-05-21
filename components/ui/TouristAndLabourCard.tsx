@@ -1,5 +1,5 @@
 import { View, StyleSheet, ViewStyle } from "react-native";
-import { colors } from "@/constants/colors";
+import { colors } from "../../constants/colors";
 import React from "react";
 
 interface CardProps {

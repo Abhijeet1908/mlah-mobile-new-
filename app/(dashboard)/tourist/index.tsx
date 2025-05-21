@@ -15,7 +15,7 @@ import { Button } from "@/components/ui/Button";
 import { FeatureCard } from "@/components/ui/FeatureCard";
 import { useTouristStore } from "@/store/tourist-store";
 import { useAuthStore } from "@/store/auth-store";
-import { colors } from "@/constants/colors";
+import { colors } from "../../../constants/colors";
 import { UserPlus, Building, Car, LogOut, User } from "lucide-react-native";
 
 export default function TouristDashboardScreen() {

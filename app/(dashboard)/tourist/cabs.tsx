@@ -15,7 +15,7 @@ import { Input } from "@/components/ui/Input";
 import { LoadingOverlay } from "@/components/ui/LoadingOverlay";
 import { BackButton } from "@/components/ui/BackButton";
 import { useTouristStore } from "@/store/tourist-store";
-import { colors } from "@/constants/colors";
+import { colors } from "../../../constants/colors";
 import { Car, Calendar, Clock, Users, MapPin, X } from "lucide-react-native";
 
 export default function CabsScreen() {
@@ -259,8 +259,8 @@ export default function CabsScreen() {
                     booking.status === "confirmed"
                       ? styles.confirmedBadge
                       : booking.status === "pending"
-                        ? styles.pendingBadge
-                        : styles.cancelledBadge,
+                      ? styles.pendingBadge
+                      : styles.cancelledBadge,
                   ]}
                 >
                   <Text style={styles.statusText}>

@@ -14,7 +14,7 @@ import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { BackButton } from "@/components/ui/BackButton";
 import { useLabourStore } from "@/store/labour-store";
-import { colors } from "@/constants/colors";
+import { colors } from "../../../constants/colors";
 import { User } from "lucide-react-native";
 
 export default function ViewCardScreen() {

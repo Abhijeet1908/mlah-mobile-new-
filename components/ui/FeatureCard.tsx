@@ -6,7 +6,7 @@ import {
   TouchableOpacity,
   ViewStyle,
 } from "react-native";
-import { colors } from "@/constants/colors";
+import { colors } from "../../constants/colors";
 import { LucideIcon } from "lucide-react-native";
 
 interface FeatureCardProps {
