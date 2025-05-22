@@ -27,16 +27,16 @@ export default function VerifyScreen() {
   const [otpError, setOtpError] = useState("");
 
   useEffect(() => {
-    let interval: NodeJS.Timeout;
+    let intervalId: ReturnType<typeof setInterval>;
 
     if (timer > 0) {
-      interval = setInterval(() => {
+      intervalId = setInterval(() => {
         setTimer((prevTimer) => prevTimer - 1);
       }, 1000);
     }
 
     return () => {
-      if (interval) clearInterval(interval);
+      if (intervalId) clearInterval(intervalId);
     };
   }, [timer]);
 
