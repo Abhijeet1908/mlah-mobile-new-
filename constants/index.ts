@@ -102,7 +102,7 @@ export const onboarding = [
   {
     id: 1,
     title: "",
-    image: require(images.welcomeImage),
+    image: images.welcomeImage,
     description:
       "Your one-stop solution for tourism and labour registration services.",
   },
@@ -111,14 +111,14 @@ export const onboarding = [
     title: "Tourist Services",
     description:
       "Register as a tourist, add family members. Discover the convenience with Mlah",
-    image: require(images.onboardingtourist),
+    image: images.onboardingtourist,
   },
   {
     id: 3,
     title: "Labour Registration",
     description:
       "Apply for labour cards, renew existing cards, and manage your labour profile easily with Mlah.",
-    image: require(images.onboardinglabour),
+    image: images.onboardinglabour,
   },
 ];
 
