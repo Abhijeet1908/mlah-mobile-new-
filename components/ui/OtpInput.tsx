@@ -3,7 +3,6 @@ import {
   View,
   TextInput,
   StyleSheet,
-  Keyboard,
   NativeSyntheticEvent,
   TextInputKeyPressEventData,
 } from "react-native";
