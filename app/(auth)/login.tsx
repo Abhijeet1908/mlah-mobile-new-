@@ -3,7 +3,6 @@ import {
   View,
   Text,
   StyleSheet,
-  Image,
   KeyboardAvoidingView,
   Platform,
   TouchableWithoutFeedback,
@@ -13,10 +12,10 @@ import {
 } from "react-native";
 import { useRouter } from "expo-router";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { Input } from "@/components/ui/Input";
-import { Button } from "@/components/ui/Button";
-import { LoadingOverlay } from "@/components/ui/LoadingOverlay";
-import { useAuthStore } from "@/store/auth-store";
+import { Input } from "../../components/ui/Input";
+import { Button } from "../../components/ui/Button";
+import { LoadingOverlay } from "../../components/ui/LoadingOverlay";
+import { useAuthStore } from "../../store/auth-store";
 import { colors } from "../../constants/colors";
 import { ChevronLeft } from "lucide-react-native";
 
@@ -64,12 +63,7 @@ export default function LoginScreen() {
         <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
           <View style={styles.inner}>
             <View style={styles.logoContainer}>
-              <Image
-                source={{
-                  uri: "https://images.unsplash.com/photo-1633409361618-c73427e4e206?q=80&w=2080&auto=format&fit=crop",
-                }}
-                style={styles.logo}
-              />
+              {/* <Image style={styles.logo} /> */}
             </View>
 
             <View style={styles.formContainer}>

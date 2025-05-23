@@ -17,6 +17,7 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
+      "assetBundlePatterns": ["**/*"],
       "package": "com.abhijeet1403gtk.mlahmobile"
     },
     "web": {
@@ -26,15 +27,7 @@
     },
     "plugins": [
       "expo-router",
-      [
-        "expo-splash-screen",
-        {
-          "image": "./assets/images/splashscreen.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
-        }
-      ],
+     
       "expo-font",
       "expo-secure-store",
       "expo-web-browser"
